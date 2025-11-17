@@ -1,0 +1,7 @@
+{
+  "seed": 42,
+  "model_name": "distilbert-base-uncased-finetuned-sst-2-english",
+  "max_length": 128,
+  "batch_size": 32,
+  "pca_sample_size": 2000
+}

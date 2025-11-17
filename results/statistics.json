@@ -1,0 +1,32 @@
+{
+  "entropy": {
+    "constrained_vs_baseline": {
+      "mean_diff": 3.5274474654098925e-05,
+      "cohens_d": 0.016301206666598518,
+      "p_value": 0.6303752703812129,
+      "ci95": [
+        -0.00011020893500511718,
+        0.00018128651754189396
+      ]
+    },
+    "expanded_vs_baseline": {
+      "mean_diff": 2.9808171723601877e-05,
+      "cohens_d": 0.08639990380598159,
+      "p_value": 0.010900249761457998,
+      "ci95": [
+        7.786788336730803e-06,
+        5.476204528558226e-05
+      ]
+    }
+  },
+  "accuracy": {
+    "constrained_vs_baseline": {
+      "acc_diff": 0.0,
+      "p_value": 1.0
+    },
+    "expanded_vs_baseline": {
+      "acc_diff": 0.0,
+      "p_value": 1.0
+    }
+  }
+}

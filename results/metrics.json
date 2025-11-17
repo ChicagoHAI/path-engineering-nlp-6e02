@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "accuracy": 0.9105504587155964,
+    "mean_entropy": 0.047107700196547656,
+    "mean_brier": 0.16673414679371282,
+    "mean_margin": 0.776102463526805,
+    "median_entropy": 0.004350496456027031
+  },
+  "constrained_top128": {
+    "accuracy": 0.9105504587155964,
+    "mean_entropy": 0.04714297467120176,
+    "mean_brier": 0.16668587105937957,
+    "mean_margin": 0.7763004732412209,
+    "median_entropy": 0.004293072270229459
+  },
+  "expanded_bottom64": {
+    "accuracy": 0.9105504587155964,
+    "mean_entropy": 0.047137508368271255,
+    "mean_brier": 0.1667234256896673,
+    "mean_margin": 0.7758051913675912,
+    "median_entropy": 0.0043443620670586824
+  }
+}
