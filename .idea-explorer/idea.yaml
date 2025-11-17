@@ -1,0 +1,35 @@
+idea:
+  title: 'Path Engineering: Causal Manipulation of the "Road Not Taken"'
+  domain: nlp
+  hypothesis: 'Artificially constraining the model''s path space by reducing the dimensionality
+    of hidden representations along critical directions will decrease uncertainty,
+    while expanding the path space will increase uncertainty, even when the reasoning
+    problem itself remains unchanged.
+
+    '
+  background:
+    description: 'We''ll test whether the correlation between uncertainty and path
+      representation is causal by artificially creating or destroying alternate paths
+      in the model''s representation space. If the core paper is right, we should
+      see uncertainty change accordingly when we engineer the path landscape.
+
+      '
+    papers:
+    - description: '"Are language models aware of the road not taken? Token-level
+        uncertainty and hidden state dynamics." Aviv Zur, Adam Geiger, Eshaan Lubana,
+        Eric J. Bigelow (2025).'
+    - description: '"Representational Analysis of Binding in Language Models." Qianchu
+        Dai, Benjamin Heinzerling, Kentaro Inui (2024). Conference on Empirical Methods
+        in Natural Language Processing.'
+  constraints:
+    compute: cpu_only
+    time_limit: 3600
+    budget: 100
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/zYGzttnH92rdu3f6k4AI
+    idea_id: path_engineering__causal_manip_20251117_011808_5f502f75
+    created_at: '2025-11-17T01:18:08.537184'
+    status: submitted
+    github_repo_name: path-engineering-nlp-6e02
+    github_repo_url: https://github.com/ChicagoHAI/path-engineering-nlp-6e02
